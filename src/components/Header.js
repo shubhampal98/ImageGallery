@@ -14,11 +14,6 @@ const Header = ({searchImages}) => {
     <header>
       <h1>Search Photos</h1>
       <input type="text" placeholder="Search for images" onChange={onSetChange} list="colorList"/>
-      <datalist id="colorList">
-        <option>Hello</option>
-        <option>Hello</option>
-        <option>Hello</option>
-      </datalist>
       <button className="btn" onClick={() =>{onClickSearch()}}>Search</button>
       {/* <p>{search}</p> */}
     </header>
